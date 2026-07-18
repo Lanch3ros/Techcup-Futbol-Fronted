@@ -1,5 +1,14 @@
 # Techcup Futbol Frontend
 
+## Despliegue en Producción
+
+| Componente | Plataforma | URL |
+|------------|-----------|-----|
+| Frontend | Vercel (rama `main`) | https://techcup-futbol-fronted.vercel.app |
+| Backend API | Railway (rama `main` de `Lanch3ros/techcup-futbol`) | https://techcup-futbol-production.up.railway.app |
+
+El frontend usa `VITE_API_URL` (definida en `.env.production`) para apuntar al backend de Railway. Cada push a `main` redespliega automáticamente en Vercel.
+
 ## Instrucciones de Ejecución
 
 ### Pasos para ejecutar localmente
