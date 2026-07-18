@@ -9,6 +9,12 @@
 
 El frontend usa `VITE_API_URL` (definida en `.env.production`) para apuntar al backend de Railway. Cada push a `main` redespliega automáticamente en Vercel.
 
+## Mantenimiento y Deploy
+
+- Este fork es mantenido por Jose Lancheros ([Lanch3ros](https://github.com/Lanch3ros)).
+- La migración del deploy a Vercel (frontend) y Railway (backend), realizada en julio 2026, fue hecha íntegramente por Jose Lancheros de forma independiente.
+- La configuración de producción (Vercel, variables de entorno y conexión al backend de Railway) es mantenida por Jose Lancheros.
+
 ## Instrucciones de Ejecución
 
 ### Pasos para ejecutar localmente
